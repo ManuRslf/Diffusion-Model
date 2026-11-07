@@ -1,0 +1,54 @@
+# Datasets
+/data/
+
+# Secrets and credentials
+.env
+.env.*
+.aws/
+.ssh/
+.gnupg/
+.netrc
+.pypirc
+.npmrc
+secrets/
+.secrets/
+secrets.*
+credentials/
+credentials.*
+*_credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Python, virtual environments, and notebook checkpoints
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training artifacts
+checkpoints/
+runs/
+wandb/
+lightning_logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
